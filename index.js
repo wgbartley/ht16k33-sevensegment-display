@@ -47,4 +47,8 @@ SevenSegment.prototype.clear = function() {
   this.display.clear();
 }
 
+SevenSegment.prototype.setBrightness = function(brightness){
+  this.display.setBrightness(brightness);
+}
+
 module.exports = SevenSegment
